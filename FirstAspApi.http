@@ -1,0 +1,15 @@
+﻿@FirstAspApi_HostAddress = http://localhost:5181
+
+POST {{FirstAspApi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+
+###
+
+GET {{FirstAspApi_HostAddress}}/todoitems
+
+###
